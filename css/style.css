@@ -28,7 +28,7 @@ body {
 }
 
 .banner-area {
-    background-image: url("/images/banner15.jpg");
+    background-image: url("../images/banner15.jpg");
     width: 100%;
     height: 100vh;
     margin-top: -40px;
