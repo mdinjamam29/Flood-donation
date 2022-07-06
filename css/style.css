@@ -1,0 +1,254 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gulzar', serif;
+   font-family: 'Poppins', sans-serif;
+}
+.banner-area{
+    text-align: center;
+}
+.banner-area h1 {
+    color: white;
+    font-size: 40px;
+
+    
+}
+.banner-area p  {
+    color: #fff;
+    font-size: 13px;
+    margin-top: -20px;
+}
+.banner-area a {
+    text-decoration: none;
+    background-color: #ff5959;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+}
+
+.banner-area {
+    background-image: url("/images/banner15.jpg");
+    width: 100%;
+    height: 100vh;
+    margin-top: -40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+.text-area {
+    position: absolute;
+    bottom: 0px;
+    top: 150px;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.donation-area  {
+    text-align: center;
+    margin-top: 100px;
+}
+.donation-area .anchor-button {
+    text-decoration: none;
+    background-color: #ff5959;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.amount {
+    display: flex;
+    margin-left: 420px;
+
+    
+}
+.amount .amount-1{
+    background-color: lightgray;
+    width: 60px;
+    border-radius: 3px;
+   padding: 20px;
+   margin: 20px;
+   font-weight: 700;
+}
+.amount .amount-2 {
+    background-color: lightgray;
+    width: 50px;
+    padding: 20px;
+    margin: 20px;
+    font-weight: 700;
+    border-radius: 3px;
+    color: #FF5959;
+    border: 2px solid #FF5959;
+}
+
+.amount .amount-3 {
+    background-color: lightgray;
+    width: 50px;
+    padding: 20px;
+    margin: 20px;
+    border: 3px;
+    font-weight: 700;
+    border-radius: 3px;
+    font-weight: 700;
+}
+.amount .amount-4 {
+    background-color: lightgray;
+    width: 50px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 3px;
+    font-weight: 700;
+}
+.amount .amount-5 {
+    background-color: lightgray;
+    width: 50px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 3px;
+    font-weight: 700;
+}
+
+.donation-area h2 {
+    font-size: 30px;
+    font-weight: 700;
+
+}
+.donation-area p{
+    font-size: 13px;
+}
+hr {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.donate-paln-area {
+    text-align: center;
+    margin-top: 100px;
+}
+.donate-paln-area h3 {
+    font-size: 30px;
+    font-weight: 700;
+}
+.donate-paln-area p{
+    font-size: 13px;
+}
+.flexible-container {
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+    
+}
+.flexible-container .food-plan {
+    text-align: left;
+    background-color: #7007;
+    height: 300px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 7px;
+}
+.flexible-container .shelter-plan {
+    text-align: left;
+    background-color: rgba(89, 74, 74, 0.467);
+    height: 300px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 7px;
+}
+.flexible-container .education-plan{
+    text-align: left;
+    background-color: rgba(119, 0, 0, 0.562);
+    height: 300px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 7px;
+}
+.flexible-container h4{
+    font-weight: 700;
+}
+.field-area {
+    display: flex;
+    margin-top: 100px;
+}
+.field-area .contribute-area{
+    width: 50%;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-right: 100px;
+}
+.field-area.contribute-area h1 {
+    font-size: 30px;
+    font-weight: 700;
+}
+.field-area .contribute-area p {
+    font-size: 13px;
+}
+.field-area .contribute-area a {
+    text-decoration: none;
+    background-color: #ff5959;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    margin-top: 50px;
+}
+.field-area .field-image img {
+    border-radius: 10px;
+}
+
+.search-details  {
+    text-align: center;
+    margin-top: 100px;
+}
+.search-details h1 {
+    font-size: 30px;
+    font-weight: 700;
+}
+.search-details p   {
+    font-size: 13px;
+}
+ .search-container {
+    background-color: #FFF4D6;
+    width: 800px;
+    height: 200px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+.search-container input {
+    border: none;
+    padding: 10px;
+    background-color: lightgray;
+    border-radius: 5px 0px 0px 5px;
+    margin-top: 70px;
+}
+.search-container button {
+    border: none;
+    padding: 10px  ;
+    color: white;
+    border-radius: 0px 5px 5px 0px;
+    background-color: #ff5959;
+    margin-left: -10px;
+}
+footer {
+    background-color: #0B0D17;
+    text-align: center;
+    height: 150px;
+    color: #FF5959;
+}
+footer h2 {
+    font-size: 30px;
+    font-weight: 700;
+    font-style: italic;
+    margin-top: 20px;
+}
+footer p {
+    font-size: 14px;
+    font-style: italic;
+}
+
+
+
+
